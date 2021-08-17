@@ -10,3 +10,12 @@
 [submodule "calculator"]
 	path = calculator
 	url = https://github.com/AdityaRajvanshi18/calculator
+[submodule "Etch-a-Sketch"]
+	path = Etch-a-Sketch
+	url = https://github.com/AdityaRajvanshi18/Etch-a-Sketch
+[submodule "library"]
+	path = library
+	url = https://github.com/AdityaRajvanshi18/library
+[submodule "tictactoe"]
+	path = tictactoe
+	url = https://github.com/AdityaRajvanshi18/tictactoe
