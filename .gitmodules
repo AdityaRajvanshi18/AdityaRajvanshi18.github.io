@@ -7,3 +7,6 @@
 [submodule "restaurant"]
 	path = restaurant
 	url = https://github.com/AdityaRajvanshi18/restaurant
+[submodule "calculator"]
+	path = calculator
+	url = https://github.com/AdityaRajvanshi18/calculator
