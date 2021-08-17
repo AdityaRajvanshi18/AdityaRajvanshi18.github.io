@@ -1,3 +1,6 @@
 [submodule "Portfolio-for-Tanvi"]
 	path = Portfolio-for-Tanvi
 	url = https://github.com/AdityaRajvanshi18/Portfolio-for-Tanvi
+[submodule "Weather-App"]
+	path = Weather-App
+	url = https://github.com/AdityaRajvanshi18/Weather-App
