@@ -4,3 +4,6 @@
 [submodule "Weather-App"]
 	path = Weather-App
 	url = https://github.com/AdityaRajvanshi18/Weather-App
+[submodule "restaurant"]
+	path = restaurant
+	url = https://github.com/AdityaRajvanshi18/restaurant
