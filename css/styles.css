@@ -17,6 +17,7 @@
 	--container-colour: #fff;
 	--scroll-bar-colour: hsl(var(--hue-colour), 7%, 90%);
 	--scroll-thumb-colour: hsl(var(--hue-colour), 8%, 80%);
+	--chip-colour: hsl(var(--hue-colour), 60%, 85%);
 
 	--body-font: "Poppins", sans-serif;
 
@@ -70,6 +71,7 @@ body.dark-theme {
 	--container-colour: hsl(var(--hue-colour), 29%, 16%);
 	--scroll-bar-colour: hsl(var(--hue-colour), 12%, 48%);
 	--scroll-thumb-colour: hsl(var(--hue-colour), 12%, 36%);
+	--chip-colour: hsl(var(--hue-colour), 29%, 16%);
 }
 
 .nav-btns {
@@ -447,6 +449,13 @@ img {
 	margin-bottom: var(--mb-0-5);
 }
 
+.skills-chip-container {
+	display: inline-block;
+	padding: 0.2rem 0.8rem;
+	background-color: var(--chip-colour);
+	border-radius: 1rem;
+}
+
 .skills-name {
 	font-size: var(--normal-font-size);
 	font-weight: var(--font-medium);
@@ -734,6 +743,12 @@ textarea {
 		width: 180px;
 	}
 
+	.skills-list,
+	.skills-data,
+	.skills-titles {
+		display: inline-block;
+	}
+
 	.skills-title {
 		font-size: var(--normal-font-size);
 	}
@@ -744,6 +759,14 @@ textarea {
 }
 
 /* medium screens */
+@media screen and (min-width: 351px) {
+	.skills-list,
+	.skills-data,
+	.skills-titles {
+		display: inline-block;
+	}
+}
+
 @media screen and (min-width: 568px) {
 	.home-content {
 		grid-template-columns: max-content 1fr 1fr;
@@ -771,9 +794,6 @@ textarea {
 }
 
 @media screen and (min-width: 768px) {
-	/* .home-content {
-		padding-left: 1rem;
-	} */
 	.container {
 		margin-left: auto;
 		margin-right: auto;
