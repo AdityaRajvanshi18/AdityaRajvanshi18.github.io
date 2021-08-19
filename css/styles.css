@@ -543,6 +543,10 @@ img {
 	display: block;
 }
 
+/* .tab-active {
+	color: var(--main-colour);
+} */
+
 /* ------------------- ports ------------------- */
 .port-container {
 	overflow: hidden;

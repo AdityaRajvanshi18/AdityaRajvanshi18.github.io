@@ -46,6 +46,20 @@ skillsHeader.forEach((el) => {
 const tabs = document.querySelectorAll('[data-target]'),
     tabContents = document.querySelectorAll('[data-content]');
 
+/*     console.log(tabs);
+tabs.forEach(tab=>{
+    tab.addEventListener('click', (e)=>{
+        console.log(e);
+        if(e.target.classList.contains('tab-active')){
+            tab.classList.remove("tab-active");
+            console.log('if fired');
+        } else{
+            tab.classList.add("tab-active");
+            console.log('else fired');
+        }
+    })
+}) */
+
 tabs.forEach(tab =>{
     tab.addEventListener('click', () =>{
         const target = document.querySelector(tab.dataset.target)
